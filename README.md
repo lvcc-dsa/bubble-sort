@@ -17,13 +17,8 @@ Bubble Sort
 
     START PROGRAM
     
-     SET array[], size, x, y, swap;
-    
-     FOR (x = 0; x < size-1; x++)
-         FOR (y = 0; y < size-x-1; y++)
-            IF (array[y] > array[y+1])
-                swap = array[y];
-                array[y] = array[y+1];
-                array[y+1] = swap;
+     FOR each number IN array
+      IF array[i] > array[i+1]
+         swap([i], array[i+1])
     
     END PROGRAM 
