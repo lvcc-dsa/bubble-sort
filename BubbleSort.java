@@ -15,7 +15,7 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 
-		int size, x, y, swap, array[];
+		int array[], size, x, y, swap;
 
 		Scanner input = new Scanner(System.in);
 		Random rand = new Random();
