@@ -17,8 +17,8 @@ Bubble Sort
 
     START PROGRAM
     
-     FOR all elements of list
-      IF list[i] > list[i+1]
-         swap(list[i], list[i+1])
+     FOR each number IN array
+      IF array[i] > array[i+1]
+         swap([i], array[i+1])
     
     END PROGRAM 
