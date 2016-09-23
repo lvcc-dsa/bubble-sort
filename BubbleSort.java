@@ -34,7 +34,7 @@ public class BubbleSort {
 		System.out.println();
 		// note: compare each from the first index until largest number is moved to the last index.
 		for (x = 0; x < size-1; x++) { // note: loop until before the end of array
-			for (y = 0; y < size-x-1; y++) { // note: loops only to unsorted numbers
+			for (y = 0; y < size-x-1; y++) { // note: will not loop to numbers already sorted
 				if (array[y] > array[y+1]) { // note: compare adjacent numbers which is greater
 					swap = array[y]; // note: swap positions...
 					array[y] = array[y+1]; // note: smaller will be move to the left
